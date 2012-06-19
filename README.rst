@@ -3,7 +3,7 @@
 Overview
 ========
 
-After installing this product, you will be able to add a "Portlet Page".
+After installing this product, you will be able to add a "Portlet Page"..
 
 This is like a standard Plone Page, but it also has a "*Manage portlets*" tab, from
 which you may assign portlets into four slots. The portlets will be shown on the main
