@@ -19,6 +19,16 @@
     />
 
   <portletmanager
+    name="collective.portletpage.thirdcolumn"
+    type="collective.portletpage.interfaces.IPortletPageColumn"
+    />
+
+  <portletmanager
+    name="collective.portletpage.fourthcolumn"
+    type="collective.portletpage.interfaces.IPortletPageColumn"
+    />
+
+  <portletmanager
     name="collective.portletpage.bottomrow"
     type="collective.portletpage.interfaces.IPortletPageColumn"
     />
