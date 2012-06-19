@@ -24,3 +24,8 @@
 #portletPageColumns dd.portletFooter {
     margin: 0;
 }
+
+#portletPageFirstColumn,#portletPageSecondColumn,#portletPageThirdColumn,#portletPageFourthColumn{
+	width: 25%;
+	float: left;
+}
