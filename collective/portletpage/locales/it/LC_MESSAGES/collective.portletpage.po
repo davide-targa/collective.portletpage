@@ -52,5 +52,5 @@ msgstr "Due colonne"
 
 #: ./browser/manage-portletpage-portlets.pt:26
 msgid "Use the controls below to change the portlets assigned to the page."
-msgstr "Usa i controllo sotto per cambiare le portlet assegnate a questa pagina."
+msgstr "Usa il controllo sotto per cambiare le portlet assegnate a questa pagina."
 
