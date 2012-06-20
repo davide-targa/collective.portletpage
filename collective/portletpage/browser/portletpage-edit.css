@@ -1,0 +1,41 @@
+/* Fixes for Sunburst and http://dev.plone.org/plone/ticket/11840  */
+/* line 3, ../sass/portletpage-edit.scss */
+#portletPageColumns dd.portletItem,
+#portletPageColumns dd.portletFooter {
+  margin: 0;
+}
+
+/* line 7, ../sass/portletpage-edit.scss */
+.four-column-section {
+  display: inline-block;
+}
+/* line 9, ../sass/portletpage-edit.scss */
+.four-column-section .one {
+  width: 100%;
+  float: left;
+}
+/* line 13, ../sass/portletpage-edit.scss */
+.four-column-section .two {
+  width: 50%;
+  float: left;
+}
+/* line 17, ../sass/portletpage-edit.scss */
+.four-column-section .three {
+  width: 33%;
+  float: left;
+}
+/* line 21, ../sass/portletpage-edit.scss */
+.four-column-section .four {
+  width: 25%;
+  float: left;
+}
+
+/* line 27, ../sass/portletpage-edit.scss */
+.middle-column-section {
+  display: inline-block;
+}
+/* line 28, ../sass/portletpage-edit.scss */
+.middle-column-section #portletPageMiddleFirst, .middle-column-section #portletPageMiddleSecond {
+  width: 50%;
+  float: left;
+}
