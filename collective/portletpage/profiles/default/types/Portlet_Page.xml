@@ -13,9 +13,9 @@
  <property name="filter_content_types">False</property>
  <property name="allowed_content_types" />
  <property name="allow_discussion">False</property>
- <property name="default_view">two-columns</property>
+ <property name="default_view">four-columns</property>
  <property name="view_methods">
-  <element value="two-columns"/>
+  <element value="four-columns"/>
  </property>
  <alias from="(Default)" to="(dynamic view)"/>
  <alias from="edit" to="atct_edit"/>

@@ -4,11 +4,6 @@
   <!-- Columns (portlet managers) -->
 
   <portletmanager
-    name="collective.portletpage.toprow"
-    type="collective.portletpage.interfaces.IPortletPageColumn"
-        />
-
-  <portletmanager
     name="collective.portletpage.firstcolumn"
     type="collective.portletpage.interfaces.IPortletPageColumn"
     />
@@ -25,6 +20,21 @@
 
   <portletmanager
     name="collective.portletpage.fourthcolumn"
+    type="collective.portletpage.interfaces.IPortletPageColumn"
+    />
+
+  <portletmanager
+    name="collective.portletpage.toprow"
+    type="collective.portletpage.interfaces.IPortletPageColumn"
+    />
+
+  <portletmanager
+    name="collective.portletpage.middlefirst"
+    type="collective.portletpage.interfaces.IPortletPageColumn"
+    />
+
+  <portletmanager
+    name="collective.portletpage.middlesecond"
     type="collective.portletpage.interfaces.IPortletPageColumn"
     />
 

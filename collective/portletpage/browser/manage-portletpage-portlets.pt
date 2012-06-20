@@ -28,28 +28,45 @@
         </p>
 
         <div id="portletPageColumns">
+            <div class="four-column-section">
+                <div
+                    id="portletPageFirstColumn"
+                    tal:content="structure provider:collective.portletpage.firstcolumn"
+                    />
 
+                <div
+                    id="portletPageSecondColumn"
+                    tal:content="structure provider:collective.portletpage.secondcolumn"
+                    />
+
+                <div
+                    id="portletPageThirdColumn"
+                    tal:content="structure provider:collective.portletpage.thirdcolumn"
+                    />
+
+                <div
+                    id="portletPageFourthColumn"
+                    tal:content="structure provider:collective.portletpage.fourthcolumn"
+                    />
+            </div>
+            <hr/>
             <div
                 id="portletPageTopRow"
                 tal:content="structure provider:collective.portletpage.toprow"
-                />
+                />            
+            <hr/>
+            <div class="middle-column-section">
+                <div
+                    id="portletPageMiddleFirst"
+                    tal:content="structure provider:collective.portletpage.middlefirst"
+                    />
 
-            <hr />
-
-            <div
-                id="portletPageSecondColumn"
-				class="portletPageRightColumn"
-                tal:content="structure provider:collective.portletpage.secondcolumn"
-                />
-
-            <div
-                id="portletPageFirstColumn"
-				class="portletPageLeftColumn"
-                tal:content="structure provider:collective.portletpage.firstcolumn"
-                />
-
-            <hr />
-
+                <div
+                    id="portletPageMiddleSecond"
+                    tal:content="structure provider:collective.portletpage.middlesecond"
+                    />
+            </div>
+            <hr/>
             <div
                 id="portletPageBottomRow"
                 tal:content="structure provider:collective.portletpage.bottomrow"

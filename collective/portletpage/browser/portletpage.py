@@ -14,16 +14,15 @@ class Base(BrowserView):
     def plone_view(self):
         return getMultiAdapter((self.context, self.request), name=u"plone")
 
-
-class TwoColumns(Base):
-    """A two-column layout.
+class FourColumns(Base):
+    """A four-column layout.
+       |ColumnFirst|ColumnSecond|ColumnThird|ColumnFourth|
+       |                  ColumnTop                      |
+       |    ColumnMiddleFirst   |   ColumnMiddleSecond   |
+       |                  ColumnBottom                   |
     """
 
-    __call__ = ViewPageTemplateFile('two-columns.pt')
-
-    def hasColumnTop(self):
-        ploneview = self.plone_view()
-        return ploneview.have_portlets('collective.portletpage.toprow', view=self)
+    __call__ = ViewPageTemplateFile('four-columns.pt')
 
     def hasColumnFirst(self):
         ploneview = self.plone_view()
@@ -33,7 +32,26 @@ class TwoColumns(Base):
         ploneview = self.plone_view()
         return ploneview.have_portlets('collective.portletpage.secondcolumn', view=self)
 
+    def hasColumnThird(self):
+        ploneview = self.plone_view()
+        return ploneview.have_portlets('collective.portletpage.thirdcolumn', view=self)
+
+    def hasColumnFourth(self):
+        ploneview = self.plone_view()
+        return ploneview.have_portlets('collective.portletpage.fourthcolumn', view=self)
+
+    def hasColumnTop(self):
+        ploneview = self.plone_view()
+        return ploneview.have_portlets('collective.portletpage.toprow', view=self)
+
+    def hasColumnMiddleFirst(self):
+        ploneview = self.plone_view()
+        return ploneview.have_portlets('collective.portletpage.middlefirst', view=self)
+
+    def hasColumnMiddleSecond(self):
+        ploneview = self.plone_view()
+        return ploneview.have_portlets('collective.portletpage.middlesecond', view=self)
+
     def hasColumnBottom(self):
         ploneview = self.plone_view()
         return ploneview.have_portlets('collective.portletpage.bottomrow', view=self)
-
