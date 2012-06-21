@@ -34,29 +34,32 @@
         <div id="portletPageColumns"
 		     tal:define="bothColumns python:view.hasColumnFirst() and view.hasColumnSecond()">
 
-            <div
-                id="portletPageFirstColumn"
-				tal:condition="view/hasColumnFirst"
-                tal:content="structure provider:collective.portletpage.firstcolumn"
-                />
+            <div class="four-column-section">
 
-            <div
-                id="portletPageSecondColumn"
-                tal:condition="view/hasColumnSecond"
-                tal:content="structure provider:collective.portletpage.secondcolumn"
-                />
+                <div
+                    id="portletPageFirstColumn"
+    				tal:condition="view/hasColumnFirst"
+                    tal:content="structure provider:collective.portletpage.firstcolumn"
+                    />
 
-            <div
-                id="portletPageThirdColumn"
-                tal:condition="view/hasColumnThird"
-                tal:content="structure provider:collective.portletpage.thirdcolumn"
-                />
+                <div
+                    id="portletPageSecondColumn"
+                    tal:condition="view/hasColumnSecond"
+                    tal:content="structure provider:collective.portletpage.secondcolumn"
+                    />
 
-            <div
-                id="portletPageFourthColumn"
-                tal:condition="view/hasColumnFourth"
-                tal:content="structure provider:collective.portletpage.fourthcolumn"
-                />
+                <div
+                    id="portletPageThirdColumn"
+                    tal:condition="view/hasColumnThird"
+                    tal:content="structure provider:collective.portletpage.thirdcolumn"
+                    />
+
+                <div
+                    id="portletPageFourthColumn"
+                    tal:condition="view/hasColumnFourth"
+                    tal:content="structure provider:collective.portletpage.fourthcolumn"
+                    />
+            </div>
 
             <div
                 id="portletPageTopRow"
@@ -64,17 +67,23 @@
                 tal:content="structure provider:collective.portletpage.toprow"
                 />
 
-            <div
-                id="portletPageMiddleFirst"
-                tal:condition="view/hasColumnMiddleFirst"
-                tal:content="structure provider:collective.portletpage.middlefirst"
-                />           
-                
-            <div
-                id="portletPageMiddleSecond"
-                tal:condition="view/hasColumnMiddleSecond"
-                tal:content="structure provider:collective.portletpage.middlesecond"
-                /> 
+            <div class="middle-column-section">
+                <tal:mcc tal:define="mcc view/middleColumnCount" tal:omit-tag="">
+                    <div
+                        id="portletPageMiddleFirst"
+                        tal:condition="view/hasColumnMiddleFirst"
+                        tal:attributes="class python:view.columnCountInWords(mcc)"
+                        tal:content="structure provider:collective.portletpage.middlefirst"
+                        />           
+                        
+                    <div
+                        id="portletPageMiddleSecond"
+                        tal:condition="view/hasColumnMiddleSecond"
+                        tal:attributes="class python:view.columnCountInWords(mcc)"
+                        tal:content="structure provider:collective.portletpage.middlesecond"
+                        /> 
+                </tal:mcc>
+            </div>
 
             <div
                 id="portletPageBottomRow"
