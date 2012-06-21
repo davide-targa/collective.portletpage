@@ -12,6 +12,11 @@
         name="collective.portletpage.css"
         file="portletpage.css"
         />
+
+    <browser:resource
+        name="collective.portletpage-edit.css"
+        file="portletpage-edit.css"
+        />
         
     <!-- The portlet page icon -->
         
