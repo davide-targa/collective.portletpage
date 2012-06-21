@@ -5,37 +5,21 @@
   margin: 0;
 }
 
+/* line 8, ../sass/portletpage-edit.scss */
 .four-column-section {
   display: inline-block;
 }
 /* line 9, ../sass/portletpage-edit.scss */
-.four-column-section .one {
-  width: 100%;
-  float: left;
-}
-/* line 13, ../sass/portletpage-edit.scss */
-.four-column-section .two {
-  width: 50%;
-  float: left;
-}
-/* line 17, ../sass/portletpage-edit.scss */
-.four-column-section .three {
-  width: 33%;
-  float: left;
-}
-/* line 21, ../sass/portletpage-edit.scss */
-.four-column-section .four {
-
+.four-column-section #portletPageFirstColumn, .four-column-section #portletPageSecondColumn, .four-column-section #portletPageThirdColumn, .four-column-section #portletPageFourthColumn {
   width: 25%;
   float: left;
 }
 
-/* line 27, ../sass/portletpage-edit.scss */
+/* line 16, ../sass/portletpage-edit.scss */
 .middle-column-section {
   display: inline-block;
 }
-/* line 28, ../sass/portletpage-edit.scss */
-
+/* line 17, ../sass/portletpage-edit.scss */
 .middle-column-section #portletPageMiddleFirst, .middle-column-section #portletPageMiddleSecond {
   width: 50%;
   float: left;
