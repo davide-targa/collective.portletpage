@@ -1,26 +1,110 @@
 /* Fixes for Sunburst and http://dev.plone.org/plone/ticket/11840  */
-/* line 3, ../sass/portletpage.scss */
-#portletPageColumns dd.portletItem,
-#portletPageColumns dd.portletFooter {
-  margin: 0;
-}
-
-/* line 8, ../sass/portletpage.scss */
-.four-column-section {
-  display: inline-block;
-}
-/* line 9, ../sass/portletpage.scss */
-.four-column-section #portletPageFirstColumn, .four-column-section #portletPageSecondColumn, .four-column-section #portletPageThirdColumn, .four-column-section #portletPageFourthColumn {
-  width: 25%;
+#portletPageColumns .one {
   float: left;
+  width: 100%;
 }
-
-/* line 16, ../sass/portletpage.scss */
-.middle-column-section {
-  display: inline-block;
-}
-/* line 17, ../sass/portletpage.scss */
-.middle-column-section #portletPageMiddleFirst, .middle-column-section #portletPageMiddleSecond {
+#portletPageColumns .two {
+  float: left;
   width: 50%;
+}
+#portletPageColumns .three {
   float: left;
+  width: 33%;
+}
+#portletPageColumns .four {
+  float: left;
+  width: 25%;
+}
+#portletPageColumns .four-column-section .one .portletFooter {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 10px;
+  padding: 0px;
+  width: 100%;
+  background: none;
+  background-color: #EEF3F5;
+}
+#portletPageColumns .four-column-section .one .portletFooter a {
+  display: inline-block;
+}
+#portletPageColumns .four-column-section .one .portletFooter span:nth-child(2) {
+  padding-right: 10px;
+}
+#portletPageColumns .four-column-section .two .portletFooter {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 10px;
+  padding: 0px;
+  width: 50%;
+  background: none;
+  background-color: #EEF3F5;
+}
+#portletPageColumns .four-column-section .two .portletFooter a {
+  display: inline-block;
+}
+#portletPageColumns .four-column-section .two .portletFooter span:nth-child(2) {
+  padding-right: 10px;
+}
+#portletPageColumns .four-column-section .three .portletFooter {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 10px;
+  padding: 0px;
+  width: 33%;
+  background: none;
+  background-color: #EEF3F5;
+}
+#portletPageColumns .four-column-section .three .portletFooter a {
+  display: inline-block;
+}
+#portletPageColumns .four-column-section .three .portletFooter span:nth-child(2) {
+  padding-right: 10px;
+}
+#portletPageColumns .four-column-section .four .portletFooter {
+  position: absolute;
+  bottom: 0px;
+  margin-top: 10px;
+  padding: 0px;
+  width: 25%;
+  background: none;
+  background-color: #EEF3F5;
+}
+#portletPageColumns .four-column-section .four .portletFooter a {
+  display: inline-block;
+}
+#portletPageColumns .four-column-section .four .portletFooter span:nth-child(2) {
+  padding-right: 10px;
+}
+
+.four-column-section .portletItem {
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 20px;
+}
+.four-column-section .portlet {
+  border-bottom: 0px;
+}
+
+#portletPageTopRow {
+  margin-top: 1em;
+}
+
+.four-column-section, .middle-column-section {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.four-column-section .portletFooter {
+  border-left: 1px solid #8CACBB;
+  border-top: 1px solid #8CACBB;
+  border-bottom: 1px solid #8CACBB;
+}
+
+.four-column-section > div:last-child .portletFooter {
+  border-right: 1px solid #8CACBB;
+}
+
+.documentContent dd a {
+  border-bottom: 0px;
 }
