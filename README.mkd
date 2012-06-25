@@ -10,9 +10,33 @@ This is like a standard Plone Page, but it also has a "*Manage portlets*" tab, f
 
 Use of other content data like title, description and body text can be avoided, making the Portlet Page simply a portlet container. This product is great for providing to your Plone sites a tool for building the site *homepage*, or the home for a site subsection.
 
-![Example of the user view](collective.portletpage/result.png)
+![Example of the user view](https://github.com/davide-targa/github_images/blob/master/collective.portletpage/result.png?raw=true "Example of the user view")
 
 ### Similar product
 
 Other Plone users like creating homepage using [Collage](http://plone.org/products/collage)
+
+## Installation
+
+1. Clone the repository from github inside the `src` folder of your Plone installation directory:
+
+`git clone git://github.com/davide-targa/collective.portletpage.git`
+
+2. Add the `collective.portletpage` egg in your `buildout.cfg` configuration file like described below (see also the [Plone Buildout Documentation](http://plone.org/documentation/manual/developer-manual/managing-projects-with-buildout/packages-products-and-eggs)):
+
+```bash
+[instance]
+...
+eggs=
+...
+collective.portletpage
+
+develop=
+...
+src/collective.portletpage
+```
+
+
+
+
 
