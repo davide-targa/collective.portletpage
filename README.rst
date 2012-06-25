@@ -9,7 +9,7 @@ This is like a standard Plone Page, but it also has a "*Manage portlets*" tab, f
 which you may assign portlets into eight slots. The portlets will be shown on the main
 view of the content.
 
-.. image:: https://github.com/davide-targa/github_images/blob/master/collective.portletpage/edit.png?raw=true
+.. image:: https://github.com/davide-targa/github_images/blob/master/collective.portletpage/edit.png
    :alt: Managing content's portlets
 
 Use of other content data like title, description and body text can be avoided, making the Portlet
@@ -18,7 +18,7 @@ Page simply a portlet container.
 This product is great for providing to your Plone sites a tool for building the site *homepage*,
 or the home for a site subsection.
 
-.. image:: http://s17.postimage.org/gatl2hn7x/result.png
+.. image:: https://github.com/davide-targa/github_images/blob/master/collective.portletpage/result.png
    :alt: Example of the user view
 
 Similar product
