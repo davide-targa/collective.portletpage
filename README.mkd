@@ -24,17 +24,38 @@ Other Plone users like creating homepage using [Collage](http://plone.org/produc
 
 2. Add the `collective.portletpage` egg in your `buildout.cfg` configuration file like described below (see also the [Plone Buildout Documentation](http://plone.org/documentation/manual/developer-manual/managing-projects-with-buildout/packages-products-and-eggs)):
 
-```bash
-[instance]
-...
-    eggs=
+    ```bash
+    [instance]
     ...
-    collective.portletpage
+    eggs=
+        ...
+        collective.portletpage
 
     develop=
-    ...
-    src/collective.portletpage
-```
+        ...
+        src/collective.portletpage
+    ```
+
+3. Run the buildout with the command:
+
+    `bin/buildout -Nt 2`
+
+4. Start your plone instance:
+
+    `bin/instance fg`
+
+5. Install the product from either the `ZMI > Site > portal_quickinstaller` or the Plone administrative interface.
+
+## Support
+
+* Feel free to [fork](https://github.com/davide-targa/collective.portletpage/fork), make it better and make a pull request!
+
+* Bug? Issues? feel free to use the [system tracker](https://github.com/davide-targa/collective.portletpage/issues)!
+
+## Authors
+
+This product was forked from [`collective portletpage`](https://github.com/collective/collective.portletpage) and extended by [*Davide Targa*](https://github.com/davide-targa) and [*Damiano Braga*](https://github.com/dbraga).
+
 
 
 
