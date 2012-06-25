@@ -20,20 +20,20 @@ Other Plone users like creating homepage using [Collage](http://plone.org/produc
 
 1. Clone the repository from github inside the `src` folder of your Plone installation directory:
 
-`git clone git://github.com/davide-targa/collective.portletpage.git`
+    `git clone git://github.com/davide-targa/collective.portletpage.git`
 
 2. Add the `collective.portletpage` egg in your `buildout.cfg` configuration file like described below (see also the [Plone Buildout Documentation](http://plone.org/documentation/manual/developer-manual/managing-projects-with-buildout/packages-products-and-eggs)):
 
 ```bash
 [instance]
 ...
-eggs=
-...
-collective.portletpage
+    eggs=
+    ...
+    collective.portletpage
 
-develop=
-...
-src/collective.portletpage
+    develop=
+    ...
+    src/collective.portletpage
 ```
 
 
