@@ -2,17 +2,17 @@
 
 ## Overview
 
-After installing this product, you will be able to add a _Portlet Page_.
+After installing this product, you will be able to add a *Portlet Page*.
 
-This is like a standard Plone Page, but it also has a "*Manage portlets*" tab, from
-which you may assign portlets into eight slots. The portlets will be shown on the main
-view of the content.
+This is like a standard Plone Page, but it also has a "*Manage portlets*" tab, from which you may assign portlets into eight slots. The portlets will be shown on the main view of the content.
 
 ![Managing content's portlets](http://github.com/davide-targa/github_images/blob/master/collective.portletpage/edit.png?raw=true "Managing content's portlets")
 
-Use of other content data like title, description and body text can be avoided, making the Portlet
-Page simply a portlet container.
+Use of other content data like title, description and body text can be avoided, making the Portlet Page simply a portlet container. This product is great for providing to your Plone sites a tool for building the site *homepage*, or the home for a site subsection.
 
-This product is great for providing to your Plone sites a tool for building the site *homepage*,
-or the home for a site subsection.
+![Example of the user view](collective.portletpage/result.png)
+
+### Similar product
+
+Other Plone users like creating homepage using [Collage](http://plone.org/products/collage)
 
