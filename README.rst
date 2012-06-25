@@ -6,10 +6,10 @@ Overview
 After installing this product, you will be able to add a "Portlet Page".
 
 This is like a standard Plone Page, but it also has a "*Manage portlets*" tab, from
-which you may assign portlets into four slots. The portlets will be shown on the main
+which you may assign portlets into eight slots. The portlets will be shown on the main
 view of the content.
 
-.. image:: http://keul.it/images/plone/collective.portletpage-1.1b1-01.png
+.. image:: http://s17.postimage.org/ynu6d1xot/edit.png
    :alt: Managing content's portlets
 
 Use of other content data like title, description and body text can be avoided, making the Portlet
@@ -18,7 +18,7 @@ Page simply a portlet container.
 This product is great for providing to your Plone sites a tool for building the site *homepage*,
 or the home for a site subsection.
 
-.. image:: http://keul.it/images/plone/collective.portletpage-1.1b1-02.png
+.. image:: http://s17.postimage.org/gatl2hn7x/result.png
    :alt: Example of the user view
 
 Similar product
@@ -31,6 +31,9 @@ __ http://plone.org/products/collage
 Installation
 ============
 
+1) Clone the repository : ``git://github.com/davide-targa/collective.portletpage.git`` in your $PLONE/src folder
+
+2) 
 Add the ``collective.portletpage`` eggs in your buildout.cfg configuration file
 (see also the `Plone buildout documentation`__)::
 
@@ -40,29 +43,21 @@ Add the ``collective.portletpage`` eggs in your buildout.cfg configuration file
        ...
        collective.portletpage
 
+    develop= 
+    	...
+    	src/collective.portletpage
+
+
 __ http://plone.org/documentation/manual/developer-manual/managing-projects-with-buildout/packages-products-and-eggs
 
 Support
 =======
 
-For reporting issues or ask for new features, please refer to the `product issue tracker`__
+For reporting issues or ask for new features, please refer to the `issue tracker`__
 
-__ http://plone.org/products/collective.portletpage/issues/
+__ https://github.com/davide-targa/collective.portletpage/issues
 
 Authors
 =======
 
-This product was mainly developed by *Martin Aspeli*, and other from the Plone community.
-
-Credits
-=======
-
-This work was sponsored by:
-
-* `Centrepoint`__ 
-* `Guardia di Finanza`__; Guardia di Finanza support the `PloneGov initiative`__
-
-__ http://centrepoint.org.uk
-__ http://www.gdf.gov.it/
-__ http://www.plonegov.it/
-
+This product was forked from __https://github.com/collective/collective.portletpage, and extended by Davide Targa (__https://github.com/davide-targa) and Damiano Braga (__https://github.com/dbraga)
