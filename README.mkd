@@ -16,6 +16,10 @@ Use of other content data like title, description and body text can be avoided, 
 
 Other Plone users like creating homepage using [Collage](http://plone.org/products/collage)
 
+## Compatibility
+
+This product has been tested with Plone 3.3.5 and Plone 4.
+
 ## Installation
 
 1. Clone the repository from github inside the `src` folder of your Plone installation directory:
