@@ -15,75 +15,6 @@
   float: left;
   width: 25%;
 }
-#portletPageColumns .four-column-section .one .portletFooter {
-  position: absolute;
-  bottom: 0px;
-  margin-top: 10px;
-  padding: 0px;
-  width: 100%;
-  background: none;
-  background-color: #EEF3F5;
-}
-#portletPageColumns .four-column-section .one .portletFooter a {
-  display: inline-block;
-}
-#portletPageColumns .four-column-section .one .portletFooter span:nth-child(2) {
-  padding-right: 10px;
-}
-#portletPageColumns .four-column-section .two .portletFooter {
-  position: absolute;
-  bottom: 0px;
-  margin-top: 10px;
-  padding: 0px;
-  width: 50%;
-  background: none;
-  background-color: #EEF3F5;
-}
-#portletPageColumns .four-column-section .two .portletFooter a {
-  display: inline-block;
-}
-#portletPageColumns .four-column-section .two .portletFooter span:nth-child(2) {
-  padding-right: 10px;
-}
-#portletPageColumns .four-column-section .three .portletFooter {
-  position: absolute;
-  bottom: 0px;
-  margin-top: 10px;
-  padding: 0px;
-  width: 33%;
-  background: none;
-  background-color: #EEF3F5;
-}
-#portletPageColumns .four-column-section .three .portletFooter a {
-  display: inline-block;
-}
-#portletPageColumns .four-column-section .three .portletFooter span:nth-child(2) {
-  padding-right: 10px;
-}
-#portletPageColumns .four-column-section .four .portletFooter {
-  position: absolute;
-  bottom: 0px;
-  margin-top: 10px;
-  padding: 0px;
-  width: 25%;
-  background: none;
-  background-color: #EEF3F5;
-}
-#portletPageColumns .four-column-section .four .portletFooter a {
-  display: inline-block;
-}
-#portletPageColumns .four-column-section .four .portletFooter span:nth-child(2) {
-  padding-right: 10px;
-}
-
-.four-column-section .portletItem {
-  border-left: 0px;
-  border-right: 0px;
-  margin-bottom: 20px;
-}
-.four-column-section .portlet {
-  border-bottom: 0px;
-}
 
 #portletPageTopRow {
   margin-top: 1em;
@@ -93,18 +24,4 @@
   width: 100%;
   display: inline-block;
   position: relative;
-}
-
-.four-column-section .portletFooter {
-  border-left: 1px solid #8CACBB;
-  border-top: 1px solid #8CACBB;
-  border-bottom: 1px solid #8CACBB;
-}
-
-.four-column-section > div:last-child .portletFooter {
-  border-right: 1px solid #8CACBB;
-}
-
-.documentContent dd a {
-  border-bottom: 0px;
 }
