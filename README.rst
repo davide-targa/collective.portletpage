@@ -9,7 +9,7 @@ This is like a standard Plone Page, but it also has a "*Manage portlets*" tab, f
 which you may assign portlets into eight slots. The portlets will be shown on the main
 view of the content.
 
-.. image:: http://s17.postimage.org/ynu6d1xot/edit.png
+.. image:: https://github.com/davide-targa/github_images/blob/master/collective.portletpage/edit.png?raw=true
    :alt: Managing content's portlets
 
 Use of other content data like title, description and body text can be avoided, making the Portlet
