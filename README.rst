@@ -60,4 +60,8 @@ __ https://github.com/davide-targa/collective.portletpage/issues
 Authors
 =======
 
-This product was forked from __https://github.com/collective/collective.portletpage, and extended by Davide Targa (__https://github.com/davide-targa) and Damiano Braga (__https://github.com/dbraga)
+This product was forked from __https://github.com/collective/collective.portletpage, and extended by `Davide Targa`__.
+ and `Damiano Braga`__.
+
+__ https://github.com/davide-targa
+__ https://github.com/dbraga
